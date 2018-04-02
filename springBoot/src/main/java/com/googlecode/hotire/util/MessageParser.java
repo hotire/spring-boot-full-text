@@ -54,7 +54,7 @@ public class MessageParser {
 		try {
 			data = message.getBytes("euc-kr");
 		} catch (UnsupportedEncodingException e1) {
-
+			// ignore
 		}
 
 		for (Field field : fields) {
