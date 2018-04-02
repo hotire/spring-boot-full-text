@@ -9,7 +9,7 @@ import com.googlecode.hotire.model.BaseMessage;
  * @comment : Factory (request, response)
  */
 public class MessageFactory {
-	private final static String packageName = "com.googlecode.hotire.naver.model.";
+	private final static String packageName = "com.googlecode.hotire.model.";
 	private MessageFactory (){ throw new ServiceException("객체를 생성할 수 없습니다."); }
 	public static BaseMessage getMessageInstance(String messageType) {
 		try {
