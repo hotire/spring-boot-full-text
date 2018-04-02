@@ -19,11 +19,11 @@
 <b>문자일 경우 공백으로, 숫자일 경우 0으로 데이터 포맷을 만들게 된다. </b><br/>
 
 
-
-
-- Annotation
-- Enum 
-- Factory
+### Technique
+- Annotation : Fiexed String(value, type) 문자열 길이와 타입 표시
+- Enum : 데이터의 타입 정의 (NUMERIC, ALPHABET)
+- Factory : Message Model 생성
+- Parser : Full Text 생성
 
 
 
