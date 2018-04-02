@@ -29,9 +29,7 @@ public class MessageParser {
 				}
 				Object value = new PropertyDescriptor(field.getName(), parseObject.getClass()).getReadMethod()
 						.invoke(parseObject);
-				if (value == null) {
-					value = "";
-				}
+				value = value == null ? "" : value;
 				byte[] data = value.toString().getBytes();
 				String valueString = new String(data, "euc-kr");
 				int strLength = fixedStringInfo.value();

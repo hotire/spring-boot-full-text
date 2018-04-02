@@ -5,8 +5,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.googlecode.hotire.exception.ServiceException;
-
 /**
  * 
  * @author : hoTire
@@ -14,11 +12,7 @@ import com.googlecode.hotire.exception.ServiceException;
  * Singleton holder pattern
  */
 public class TypeUtils {
-	private TypeUtils() {
-		if ( SingletonHolder.instance != null ) {
-			throw new ServiceException("객체를 생성할 수 없습니다.");
-		}
-	}
+	private TypeUtils() {}
 	private final static class SingletonHolder {
 		private final static TypeUtils instance = new TypeUtils();
 	}
