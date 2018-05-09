@@ -20,7 +20,7 @@
 
 
 ### Technique
-- Annotation : Fiexed String(value, type) 문자열 길이와 타입 표시
+- Annotation : Fiexed String(value, type) 문자열 길이와 타입 표시, Order(value) 필드 순서
 - Enum : 데이터의 타입 정의 (NUMERIC, ALPHABET)
 - Factory : Message Model 생성
 - Parser : Full Text 생성
