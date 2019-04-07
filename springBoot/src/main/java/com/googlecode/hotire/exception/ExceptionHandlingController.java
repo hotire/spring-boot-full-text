@@ -1,23 +1,18 @@
 package com.googlecode.hotire.exception;
 
 
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-/**
- * 
- * @author hoTire
- *
- */
+@Slf4j
 @ControllerAdvice
 public class ExceptionHandlingController {
-	
-	private static Logger logger = LoggerFactory.getLogger(ExceptionHandlingController.class);
-	
+
 	@ExceptionHandler(BaseException.class) 
 	public void handleError(Exception exception) { 
-		logger.error(exception.getMessage());
+		log.error(exception.getMessage());
 	}
 }

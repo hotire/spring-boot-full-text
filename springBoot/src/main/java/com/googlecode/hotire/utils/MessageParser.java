@@ -1,4 +1,4 @@
-package com.googlecode.hotire.util;
+package com.googlecode.hotire.utils;
 
 import java.beans.PropertyDescriptor;
 import java.io.UnsupportedEncodingException;
@@ -8,6 +8,7 @@ import java.util.List;
 
 import com.googlecode.hotire.annoation.FixedString;
 import com.googlecode.hotire.constants.MessageFieldType;
+import java.util.Objects;
 
 
 /**
@@ -60,7 +61,7 @@ public class MessageParser {
 		for (Field field : fields) {
 			try {
 				FixedString fixedStringInfo = field.getAnnotation(FixedString.class);
-				if (fixedStringInfo == null) {
+				if (Objects.isNull(fixedStringInfo)) {
 					continue;
 				}
 				int strLength = fixedStringInfo.value();

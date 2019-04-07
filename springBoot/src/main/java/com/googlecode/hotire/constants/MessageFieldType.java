@@ -6,5 +6,5 @@ package com.googlecode.hotire.constants;
  * @comment : Field Type
  */
 public enum MessageFieldType {
-	NUMERIC(), ALPHABET();
+	NUMERIC, ALPHABET
 }

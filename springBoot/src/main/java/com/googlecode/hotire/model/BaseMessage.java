@@ -1,6 +1,6 @@
 package com.googlecode.hotire.model;
 
-import com.googlecode.hotire.util.MessageParser;
+import com.googlecode.hotire.utils.MessageParser;
 
 /**
  * 
