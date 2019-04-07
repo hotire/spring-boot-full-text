@@ -25,5 +25,47 @@
 - Factory : Message Model 생성
 - Parser : Full Text 생성
 
+### Test
+
+Factory
+- Request, Response 모델 생성
+````
+public class MessageFactoryTest {
+
+  @Test
+  public void create_response() {
+    final BaseMessage baseMessage = MessageFactory.createMessage(MessageType.RESPONSE);
+    Assert.assertTrue(baseMessage instanceof  ResponseMessage);
+  }
+
+  @Test
+  public void create_request() {
+    final BaseMessage baseMessage = MessageFactory.createMessage(MessageType.REQUEST);
+    Assert.assertTrue(baseMessage instanceof RequestMessage);
+  }
+}
+
+````
+
+FullTextService
+
+- parse : 전문을 객체로 만들어 준다.
+
+````
+public class TestFullTextServiceTest {
+
+  private final String TEST_DATA = "10011000010000100001000010000";
+  private final FullTextService fullTextService = new FullTextService();
+
+  @Test
+  public void parse() {
+    final ResponseMessage responseMessage = fullTextService.parse(TEST_DATA);
+    Assert.assertEquals("1001", responseMessage.getResponseCode());
+    Assert.assertEquals("10000100001000010000", responseMessage.getChaserNumber());
+  }
+}
+
+````
+
 
 hotire blog : https://blog.naver.com/gngh0101

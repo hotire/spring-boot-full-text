@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a93b0c7c-1b93-452f-873d-aeff5f9eb135" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/constants/MessageFieldType.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/constants/MessageFieldType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/controller/BaseController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/controller/TestFullTextController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/controller/FullTextController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/exception/ExceptionHandlingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/exception/ExceptionHandlingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/exception/ServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/exception/ServiceException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/model/BaseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/model/BaseMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/model/RequestMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/model/RequestMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/model/ResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/model/ResponseMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/model/factory/MessageFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/service/BaseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/service/TestFullTextService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/service/FullTextService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/util/MessageParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/utils/MessageParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/util/TypeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/utils/TypeUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/service/TestFullTextServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/service/TestFullTextServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/springBoot/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,6 +31,7 @@
         <counts>
           <entry key="Git file" value="1" />
           <entry key="JAVA" value="56" />
+          <entry key="Markdown" value="1" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -53,6 +39,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1187" />
+          <entry key="Markdown" value="156" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="XML" value="35" />
         </counts>
@@ -61,15 +48,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/model/BaseMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/service/FullTextService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -118,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/utils/MessageFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="181">
+              <caret line="9" selection-start-line="9" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/service/TestFullTextServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="67" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="67" />
+            <state relative-caret-position="192">
+              <caret line="8" selection-start-line="8" selection-end-line="19" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,10 +117,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/controller/FullTextControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
+            <state relative-caret-position="41">
               <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -156,6 +134,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="382">
+                <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -201,13 +191,14 @@
         <option value="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/model/factory/MessageFTest.java" />
         <option value="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/model/factory/MessageFactoryTest.java" />
         <option value="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/service/FullTextService.java" />
-        <option value="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/service/TestFullTextServiceTest.java" />
         <option value="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/util/TypeUtils.java" />
         <option value="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/controller/TestFullTextControllerTest.java" />
         <option value="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/controller/FullTextController.java" />
         <option value="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/controller/FullTextControllerTest.java" />
         <option value="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/utils/MessageFactory.java" />
         <option value="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/utils/MessageFactoryTest.java" />
+        <option value="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/service/TestFullTextServiceTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -486,7 +477,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554613443258" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554614337593" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -644,7 +635,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554609669902</updated>
-      <workItem from="1554609671445" duration="3758000" />
+      <workItem from="1554609671445" duration="4629000" />
     </task>
     <servers />
   </component>
@@ -681,7 +672,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3758000" />
+    <option name="totallyTimeSpent" value="4629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="949" extended-state="6" />
@@ -857,13 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/constants/MessageType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/utils/MessageParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
@@ -909,10 +893,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/controller/FullTextControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/constants/MessageType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/utils/MessageFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="181">
+          <caret line="9" selection-start-line="9" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -921,21 +922,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/service/TestFullTextServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="67" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="67" />
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="19" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/controller/FullTextControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="382">
+            <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

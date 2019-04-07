@@ -1,6 +1,5 @@
 package com.googlecode.hotire.service;
 
-import com.googlecode.hotire.model.BaseMessage;
 import com.googlecode.hotire.model.ResponseMessage;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
