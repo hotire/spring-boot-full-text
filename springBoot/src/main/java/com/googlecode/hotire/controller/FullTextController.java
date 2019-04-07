@@ -1,11 +1,9 @@
 package com.googlecode.hotire.controller;
 
-import com.googlecode.hotire.model.ResponseMessage;
 import com.googlecode.hotire.service.FullTextService;
 import javax.validation.constraints.NotNull;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;

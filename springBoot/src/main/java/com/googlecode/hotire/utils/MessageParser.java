@@ -1,13 +1,12 @@
 package com.googlecode.hotire.utils;
 
+import com.googlecode.hotire.annoation.FixedString;
+import com.googlecode.hotire.constants.MessageFieldType;
 import java.beans.PropertyDescriptor;
 import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Field;
 import java.util.Arrays;
 import java.util.List;
-
-import com.googlecode.hotire.annoation.FixedString;
-import com.googlecode.hotire.constants.MessageFieldType;
 import java.util.Objects;
 
 

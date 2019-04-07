@@ -5,11 +5,6 @@ import com.googlecode.hotire.annoation.Order;
 import com.googlecode.hotire.constants.MessageFieldType;
 import lombok.Data;
 
-/**
- * 
- * @author : hoTire
- * @comment : Request (correct way) 
- */
 @Data
 public class RequestMessage extends BaseMessage {
 	@FixedString(value = 8, type = MessageFieldType.ALPHABET)

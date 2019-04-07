@@ -1,11 +1,10 @@
 package com.googlecode.hotire.utils;
 
+import com.googlecode.hotire.annoation.Order;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
-import com.googlecode.hotire.annoation.Order;
 /**
  * 
  * @author : hoTire

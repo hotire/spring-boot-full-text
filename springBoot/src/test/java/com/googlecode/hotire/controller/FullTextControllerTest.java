@@ -8,8 +8,8 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import com.googlecode.hotire.constants.MessageType;
 import com.googlecode.hotire.model.ResponseMessage;
-import com.googlecode.hotire.utils.MessageFactory;
 import com.googlecode.hotire.service.FullTextService;
+import com.googlecode.hotire.utils.MessageFactory;
 import com.googlecode.hotire.utils.MessageParser;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
