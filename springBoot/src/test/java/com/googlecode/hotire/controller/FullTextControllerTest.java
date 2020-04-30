@@ -1,11 +1,5 @@
 package com.googlecode.hotire.controller;
 
-import static org.mockito.Mockito.when;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-
 import com.googlecode.hotire.constants.MessageType;
 import com.googlecode.hotire.model.ResponseMessage;
 import com.googlecode.hotire.service.FullTextService;
@@ -20,27 +14,36 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
+import static org.mockito.Mockito.when;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+
 @Slf4j
 @RunWith(SpringRunner.class)
 @WebMvcTest(FullTextController.class)
 public class FullTextControllerTest {
 
   @Autowired
-  MockMvc mockMvc;
+  private MockMvc mockMvc;
 
   @MockBean
-  FullTextService fullTextService;
+  private FullTextService fullTextService;
 
-  private final String TEST_DATA = "10011000010000100001000010000";
 
   @Test
   public void parse() throws Exception {
-    ResponseMessage responseMessage = (ResponseMessage) MessageFactory.createMessage(MessageType.RESPONSE);
-    MessageParser.parseMessage(TEST_DATA, responseMessage);
-    when(fullTextService.parse(TEST_DATA)).thenReturn(responseMessage);
+    // given
+    final String data = "10011000010000100001000010000";
+    final ResponseMessage responseMessage = (ResponseMessage) MessageFactory.createMessage(MessageType.RESPONSE);
+    MessageParser.parseMessage(data, responseMessage);
+
+    // when then
+    when(fullTextService.parse(data)).thenReturn(responseMessage);
 
     mockMvc
-      .perform(get("/api/v1/fulltext/" + TEST_DATA))
+      .perform(get("/api/v1/fulltext/" + data))
       .andExpect(status().isOk())
       .andExpect(jsonPath("$.responseCode").value("1001"))
       .andExpect(jsonPath("$.chaserNumber").value("10000100001000010000"))

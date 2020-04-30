@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a93b0c7c-1b93-452f-873d-aeff5f9eb135" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/spring-boot-full-text.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/annoation/FixedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/annoation/FixedString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/annoation/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/annoation/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/constants/MessageFieldType.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/constants/MessageFieldType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/controller/FullTextController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/controller/FullTextController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/exception/BaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/exception/BaseException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/exception/ExceptionHandlingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/exception/ExceptionHandlingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/exception/ServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/exception/ServiceException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/model/BaseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/model/BaseMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/service/FullTextService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/service/FullTextService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/service/TestFullTextServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/service/TestFullTextServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/utils/MessageFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/utils/MessageFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/controller/FullTextControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/controller/FullTextControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,41 +213,9 @@
       <option name="presentableId" value="Default" />
       <updated>1554609669902</updated>
       <workItem from="1554609671445" duration="4912000" />
-      <workItem from="1588255768394" duration="616000" />
+      <workItem from="1588255768394" duration="757000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="FullTextControllerTest_parse - 2019.04.07 at 13h 48m 44s.xml">
-      <configuration name="FullTextControllerTest.parse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullTextControllerTest_parse - 2019.04.07 at 13h 49m 04s.xml">
-      <configuration name="FullTextControllerTest.parse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullTextControllerTest_parse - 2019.04.07 at 13h 49m 28s.xml">
-      <configuration name="FullTextControllerTest.parse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullTextControllerTest_parse - 2019.04.07 at 13h 50m 02s.xml">
-      <configuration name="FullTextControllerTest.parse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullTextControllerTest_parse - 2019.04.07 at 13h 53m 56s.xml">
-      <configuration name="FullTextControllerTest.parse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullTextControllerTest_parse - 2019.04.07 at 13h 56m 17s.xml">
-      <configuration name="FullTextControllerTest.parse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullTextControllerTest_parse - 2019.04.07 at 13h 58m 52s.xml">
-      <configuration name="FullTextControllerTest.parse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullTextControllerTest_parse - 2019.04.07 at 13h 59m 30s.xml">
-      <configuration name="FullTextControllerTest.parse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullTextControllerTest_parse - 2019.04.07 at 14h 00m 06s.xml">
-      <configuration name="FullTextControllerTest.parse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullTextControllerTest_parse - 2019.04.07 at 14h 01m 49s.xml">
-      <configuration name="FullTextControllerTest.parse" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
