@@ -76,9 +76,25 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MessageFactoryTest">
+  <component name="RunManager" selected="JUnit.ApplicationTests">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.googlecode.hotire.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.googlecode.hotire" />
+      <option name="MAIN_CLASS_NAME" value="com.googlecode.hotire.ApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,23 +126,6 @@
       <option name="PACKAGE_NAME" value="com.googlecode.hotire.utils" />
       <option name="MAIN_CLASS_NAME" value="com.googlecode.hotire.utils.MessageFactoryTest" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MessageFactoryTest.create_request" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-blog" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.googlecode.hotire.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.googlecode.hotire.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.googlecode.hotire.utils.MessageFactoryTest" />
-      <option name="METHOD_NAME" value="create_request" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,20 +186,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MessageFactoryTest.create_request" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="JUnit.com.googlecode.hotire in spring-blog" />
       <item itemvalue="JUnit.FullTextControllerTest" />
       <item itemvalue="JUnit.TestFullTextServiceTest" />
       <item itemvalue="JUnit.MessageFactoryTest" />
+      <item itemvalue="JUnit.ApplicationTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApplicationTests" />
+        <item itemvalue="JUnit.com.googlecode.hotire in spring-blog" />
         <item itemvalue="JUnit.MessageFactoryTest" />
         <item itemvalue="JUnit.TestFullTextServiceTest" />
         <item itemvalue="JUnit.FullTextControllerTest" />
-        <item itemvalue="JUnit.MessageFactoryTest.create_request" />
-        <item itemvalue="JUnit.com.googlecode.hotire in spring-blog" />
       </list>
     </recent_temporary>
   </component>
@@ -235,22 +234,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="170" key="GridCell.Tab.0.bottom" timestamp="1588258033845">
+    <state width="1638" height="518" key="GridCell.Tab.0.bottom" timestamp="1588258677393">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1638" height="170" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588258033845" />
-    <state width="1638" height="170" key="GridCell.Tab.0.center" timestamp="1588258033844">
+    <state width="1638" height="518" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588258677393" />
+    <state width="1638" height="518" key="GridCell.Tab.0.center" timestamp="1588258677392">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1638" height="170" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588258033844" />
-    <state width="1638" height="170" key="GridCell.Tab.0.left" timestamp="1588258033844">
+    <state width="1638" height="518" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588258677392" />
+    <state width="1638" height="518" key="GridCell.Tab.0.left" timestamp="1588258677391">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1638" height="170" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588258033844" />
-    <state width="1638" height="170" key="GridCell.Tab.0.right" timestamp="1588258033845">
+    <state width="1638" height="518" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588258677391" />
+    <state width="1638" height="518" key="GridCell.Tab.0.right" timestamp="1588258677393">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1638" height="170" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588258033845" />
+    <state width="1638" height="518" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588258677393" />
     <state x="2219" y="196" key="SettingsEditor" timestamp="1588255953644">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
