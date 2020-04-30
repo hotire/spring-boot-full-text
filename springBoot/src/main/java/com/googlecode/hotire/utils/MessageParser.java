@@ -2,12 +2,15 @@ package com.googlecode.hotire.utils;
 
 import com.googlecode.hotire.annoation.FixedString;
 import com.googlecode.hotire.constants.MessageFieldType;
+import org.springframework.core.annotation.AnnotationUtils;
+
 import java.beans.PropertyDescriptor;
 import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Field;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 
 
 /**
@@ -18,32 +21,30 @@ import java.util.Objects;
 public class MessageParser {
 	private MessageParser() {}
 
-	public static String getMessage(Object parseObject) {
-		List<Field> fields = TypeUtils.getInstance().getInheritedFields(parseObject.getClass());
-		StringBuilder messageStr = new StringBuilder();
-		for (Field field : fields) {
-			try {
-				FixedString fixedStringInfo = field.getAnnotation(FixedString.class);
-				if (fixedStringInfo == null) {
-					continue;
+	public static String getMessage(final Object parseObject) {
+		final StringBuilder messageStr = new StringBuilder();
+		Arrays.stream(parseObject.getClass().getDeclaredFields())
+			  .filter(field -> Objects.nonNull(AnnotationUtils.findAnnotation(field, FixedString.class)))
+			  .forEach(field -> {
+			  	try {
+					final FixedString fixedStringInfo = field.getAnnotation(FixedString.class);
+					final Object value = Optional.ofNullable(new PropertyDescriptor(field.getName(), parseObject.getClass()).getReadMethod().invoke(parseObject))
+												 .orElse("");
+
+					final byte[] data = value.toString().getBytes();
+					final String valueString = new String(data, "euc-kr");
+					final int strLength = fixedStringInfo.value();
+					final String cutFieldValue = cutStringByByteLength(valueString, strLength);
+
+					if (fixedStringInfo.type() == MessageFieldType.NUMERIC) {
+						messageStr.append(fillBeforeZeroSpace(cutFieldValue, strLength));
+					} else {
+						messageStr.append(fillAfterSpace(cutFieldValue, strLength));
+					}
+				} catch (Exception e) {
+			  		// ignore
 				}
-				Object value = new PropertyDescriptor(field.getName(), parseObject.getClass()).getReadMethod()
-						.invoke(parseObject);
-				value = value == null ? "" : value;
-				byte[] data = value.toString().getBytes();
-				String valueString = new String(data, "euc-kr");
-				int strLength = fixedStringInfo.value();
-				String cutFieldValue = cutStringByByteLength(valueString, strLength);
-			
-				if (fixedStringInfo.type() == MessageFieldType.NUMERIC) {
-					messageStr.append(fillBeforeZeroSpace(cutFieldValue, strLength));
-				} else {
-					messageStr.append(fillAfterSpace(cutFieldValue, strLength));
-				}
-			} catch (Exception e) {
-				// ignore
-			}
-		}
+			  });
 		return messageStr.toString();
 	}
 
