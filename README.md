@@ -29,7 +29,7 @@
 
 ### Factory
 - Request, Response 모델 생성
-````
+````java
 public class MessageFactoryTest {
 
   @Test
@@ -51,7 +51,7 @@ public class MessageFactoryTest {
 
 - parse : 전문을 객체로 만들어 준다.
 
-````
+````java
 public class TestFullTextServiceTest {
 
   private final String TEST_DATA = "10011000010000100001000010000";

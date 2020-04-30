@@ -2,22 +2,22 @@ package com.googlecode.hotire.utils;
 
 import com.googlecode.hotire.constants.MessageType;
 import com.googlecode.hotire.model.BaseMessage;
-import com.googlecode.hotire.model.RequestMessage;
 import com.googlecode.hotire.model.ResponseMessage;
-import org.junit.Assert;
 import org.junit.Test;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class MessageFactoryTest {
 
   @Test
   public void create_response() {
-    final BaseMessage baseMessage = MessageFactory.createMessage(MessageType.RESPONSE);
-    Assert.assertTrue(baseMessage instanceof  ResponseMessage);
+    final BaseMessage result = MessageFactory.createMessage(MessageType.RESPONSE);
+    assertThat(result).isInstanceOf(ResponseMessage.class);
   }
 
   @Test
   public void create_request() {
-    final BaseMessage baseMessage = MessageFactory.createMessage(MessageType.REQUEST);
-    Assert.assertTrue(baseMessage instanceof RequestMessage);
+    final BaseMessage result = MessageFactory.createMessage(MessageType.REQUEST);
+    assertThat(result).isInstanceOf(ResponseMessage.class);
   }
 }

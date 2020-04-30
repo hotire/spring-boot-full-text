@@ -1,20 +1,22 @@
 package com.googlecode.hotire.service;
 
 import com.googlecode.hotire.model.ResponseMessage;
-import lombok.extern.slf4j.Slf4j;
-import org.junit.Assert;
 import org.junit.Test;
 
-@Slf4j
+import static org.assertj.core.api.Assertions.assertThat;
+
 public class TestFullTextServiceTest {
+    @Test
+    public void parse() {
+      // given
+      final String data = "10011000010000100001000010000";
+      final FullTextService fullTextService = new FullTextService();
 
-  private final String TEST_DATA = "10011000010000100001000010000";
-  private final FullTextService fullTextService = new FullTextService();
+      // when
+      final ResponseMessage result = (ResponseMessage) fullTextService.parse(data);
 
-  @Test
-  public void parse() {
-    final ResponseMessage responseMessage = fullTextService.parse(TEST_DATA);
-    Assert.assertEquals("1001", responseMessage.getResponseCode());
-    Assert.assertEquals("10000100001000010000", responseMessage.getChaserNumber());
-  }
+      // then
+      assertThat(result.getResponseCode()).isEqualTo("1001");
+      assertThat(result.getChaserNumber()).isEqualTo("10000100001000010000");
+   }
 }
