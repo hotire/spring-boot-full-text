@@ -1,7 +1,6 @@
 package com.googlecode.hotire.utils;
 
 import com.googlecode.hotire.annoation.FixedString;
-import com.googlecode.hotire.constants.MessageFieldType;
 import org.springframework.core.annotation.AnnotationUtils;
 
 import java.beans.PropertyDescriptor;
@@ -13,11 +12,6 @@ import java.util.Objects;
 import java.util.Optional;
 
 
-/**
- * 
- * @author : hoTire
- * @comment : Parser (correct way)
- */
 public class MessageParser {
 	private MessageParser() {}
 
@@ -36,11 +30,7 @@ public class MessageParser {
 					final int strLength = fixedStringInfo.value();
 					final String cutFieldValue = cutStringByByteLength(valueString, strLength);
 
-					if (fixedStringInfo.type() == MessageFieldType.NUMERIC) {
-						messageStr.append(fillBeforeZeroSpace(cutFieldValue, strLength));
-					} else {
-						messageStr.append(fillAfterSpace(cutFieldValue, strLength));
-					}
+					messageStr.append(fixedStringInfo.type().fill(cutFieldValue, strLength));
 				} catch (Exception e) {
 			  		// ignore
 				}
@@ -82,7 +72,7 @@ public class MessageParser {
 		return message.substring(fieldIndex);
 	}
 
-	private static String cutStringByByteLength(String s, int byteLimit) {
+	public static String cutStringByByteLength(String s, int byteLimit) {
 
 		byte[] data = s.getBytes();
 		if (data.length <= byteLimit) {
@@ -96,7 +86,7 @@ public class MessageParser {
 		return s;
 	}
 
-	private static String fillAfterSpace(String s, int byteLimit) {
+	public static String fillAfterSpace(String s, int byteLimit) {
 		StringBuilder builder = new StringBuilder();
 		builder.append(s);
 		int stringLen = 0;
@@ -109,7 +99,7 @@ public class MessageParser {
 		return builder.toString();
 	}
 
-	private static String fillBeforeZeroSpace(String s, int byteLimit) {
+	public static String fillBeforeZeroSpace(String s, int byteLimit) {
 		StringBuilder builder = new StringBuilder();
 
 		byte[] data = s.getBytes();

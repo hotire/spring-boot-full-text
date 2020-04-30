@@ -2,6 +2,7 @@ package com.googlecode.hotire.utils;
 
 import com.googlecode.hotire.constants.MessageType;
 import com.googlecode.hotire.model.BaseMessage;
+import com.googlecode.hotire.model.RequestMessage;
 import com.googlecode.hotire.model.ResponseMessage;
 import org.junit.Test;
 
@@ -24,6 +25,6 @@ public class MessageFactoryTest {
     final BaseMessage result = MessageFactory.createMessage(MessageType.REQUEST);
 
     // then
-    assertThat(result).isInstanceOf(ResponseMessage.class);
+    assertThat(result).isInstanceOf(RequestMessage.class);
   }
 }
