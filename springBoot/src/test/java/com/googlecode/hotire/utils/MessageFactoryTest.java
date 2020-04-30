@@ -11,13 +11,19 @@ public class MessageFactoryTest {
 
   @Test
   public void create_response() {
+    // given
     final BaseMessage result = MessageFactory.createMessage(MessageType.RESPONSE);
+
+    // then
     assertThat(result).isInstanceOf(ResponseMessage.class);
   }
 
   @Test
   public void create_request() {
+    // given
     final BaseMessage result = MessageFactory.createMessage(MessageType.REQUEST);
+
+    // then
     assertThat(result).isInstanceOf(ResponseMessage.class);
   }
 }

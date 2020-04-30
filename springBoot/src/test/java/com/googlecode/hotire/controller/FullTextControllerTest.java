@@ -31,7 +31,6 @@ public class FullTextControllerTest {
   @MockBean
   private FullTextService fullTextService;
 
-
   @Test
   public void parse() throws Exception {
     // given
