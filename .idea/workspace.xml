@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a93b0c7c-1b93-452f-873d-aeff5f9eb135" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/constants/MessageFieldType.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/constants/MessageFieldType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/utils/MessageParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/utils/MessageParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/utils/MessageFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/utils/MessageFactoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,14 +76,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MessageFactoryTest.create_request">
+  <component name="RunManager" selected="JUnit.MessageFactoryTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FullTextControllerTest.parse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FullTextControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-blog" />
       <extension name="coverage">
         <pattern>
@@ -95,14 +93,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.googlecode.hotire.controller" />
       <option name="MAIN_CLASS_NAME" value="com.googlecode.hotire.controller.FullTextControllerTest" />
-      <option name="METHOD_NAME" value="parse" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessageFactoryTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MessageFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-blog" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +109,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.googlecode.hotire.utils" />
       <option name="MAIN_CLASS_NAME" value="com.googlecode.hotire.utils.MessageFactoryTest" />
-      <option name="METHOD_NAME" value="create" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,7 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFullTextServiceTest.parse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFullTextServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-blog" />
       <extension name="coverage">
         <pattern>
@@ -146,8 +142,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.googlecode.hotire.service" />
       <option name="MAIN_CLASS_NAME" value="com.googlecode.hotire.service.TestFullTextServiceTest" />
-      <option name="METHOD_NAME" value="parse" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -192,20 +187,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestFullTextServiceTest.parse" />
-      <item itemvalue="JUnit.MessageFactoryTest.create" />
       <item itemvalue="JUnit.MessageFactoryTest.create_request" />
-      <item itemvalue="JUnit.FullTextControllerTest.parse" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="JUnit.com.googlecode.hotire in spring-blog" />
+      <item itemvalue="JUnit.FullTextControllerTest" />
+      <item itemvalue="JUnit.TestFullTextServiceTest" />
+      <item itemvalue="JUnit.MessageFactoryTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MessageFactoryTest" />
+        <item itemvalue="JUnit.TestFullTextServiceTest" />
+        <item itemvalue="JUnit.FullTextControllerTest" />
         <item itemvalue="JUnit.MessageFactoryTest.create_request" />
         <item itemvalue="JUnit.com.googlecode.hotire in spring-blog" />
-        <item itemvalue="JUnit.FullTextControllerTest.parse" />
-        <item itemvalue="JUnit.MessageFactoryTest.create" />
-        <item itemvalue="JUnit.TestFullTextServiceTest.parse" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +227,7 @@
       <option name="presentableId" value="Default" />
       <updated>1554609669902</updated>
       <workItem from="1554609671445" duration="4912000" />
-      <workItem from="1588255768394" duration="1963000" />
+      <workItem from="1588255768394" duration="2825000" />
     </task>
     <servers />
   </component>
@@ -240,22 +235,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="170" key="GridCell.Tab.0.bottom" timestamp="1588257270115">
+    <state width="1638" height="170" key="GridCell.Tab.0.bottom" timestamp="1588258033845">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1638" height="170" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588257270115" />
-    <state width="1638" height="170" key="GridCell.Tab.0.center" timestamp="1588257270114">
+    <state width="1638" height="170" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588258033845" />
+    <state width="1638" height="170" key="GridCell.Tab.0.center" timestamp="1588258033844">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1638" height="170" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588257270114" />
-    <state width="1638" height="170" key="GridCell.Tab.0.left" timestamp="1588257270113">
+    <state width="1638" height="170" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588258033844" />
+    <state width="1638" height="170" key="GridCell.Tab.0.left" timestamp="1588258033844">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1638" height="170" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588257270113" />
-    <state width="1638" height="170" key="GridCell.Tab.0.right" timestamp="1588257270114">
+    <state width="1638" height="170" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588258033844" />
+    <state width="1638" height="170" key="GridCell.Tab.0.right" timestamp="1588258033845">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1638" height="170" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588257270114" />
+    <state width="1638" height="170" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588258033845" />
     <state x="2219" y="196" key="SettingsEditor" timestamp="1588255953644">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
