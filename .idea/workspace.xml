@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a93b0c7c-1b93-452f-873d-aeff5f9eb135" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/exception/ServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/exception/ServiceException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/utils/MessageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/utils/MessageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/utils/MessageParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/utils/MessageParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +227,7 @@
       <updated>1554609669902</updated>
       <workItem from="1554609671445" duration="4912000" />
       <workItem from="1588255768394" duration="3542000" />
-      <workItem from="1588861870332" duration="1307000" />
+      <workItem from="1588861870332" duration="1399000" />
     </task>
     <servers />
   </component>

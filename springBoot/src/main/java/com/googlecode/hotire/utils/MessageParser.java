@@ -1,6 +1,8 @@
 package com.googlecode.hotire.utils;
 
 import com.googlecode.hotire.annoation.FixedString;
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
 import org.springframework.core.annotation.AnnotationUtils;
 
 import java.beans.PropertyDescriptor;
@@ -10,8 +12,8 @@ import java.util.Optional;
 import java.util.concurrent.atomic.AtomicInteger;
 
 
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class MessageParser {
-	private MessageParser() {}
 
 	public static String getMessage(final Object parseObject) {
 		final StringBuilder messageStr = new StringBuilder();
