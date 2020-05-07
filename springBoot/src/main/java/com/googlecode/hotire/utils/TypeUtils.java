@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+@Deprecated
 public class TypeUtils {
 	private TypeUtils() {}
 	private final static class SingletonHolder {
