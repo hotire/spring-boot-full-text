@@ -4,24 +4,25 @@ import com.googlecode.hotire.constants.MessageType;
 import com.googlecode.hotire.model.BaseMessage;
 import com.googlecode.hotire.model.RequestMessage;
 import com.googlecode.hotire.model.ResponseMessage;
+
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 import java.util.function.Supplier;
 
 public class MessageFactory {
 
-  private static Map<MessageType, Supplier<BaseMessage>> factory;
+  private static final Map<MessageType, Supplier<BaseMessage>> FACTORY;
 
   static {
-    factory = new HashMap<>();
-    factory.put(MessageType.REQUEST, RequestMessage::new);
-    factory.put(MessageType.RESPONSE, ResponseMessage::new);
+    FACTORY = new HashMap<>();
+    FACTORY.put(MessageType.REQUEST, RequestMessage::new);
+    FACTORY.put(MessageType.RESPONSE, ResponseMessage::new);
   }
 
-  public static BaseMessage createMessage(MessageType messageType) {
-    if (!factory.containsKey(messageType)) {
-      throw new IllegalArgumentException("해당 Message Type 이 존재하지 않습니다. : " + messageType);
-    }
-    return factory.get(messageType).get();
+  public static BaseMessage createMessage(final MessageType messageType) {
+    return Optional.ofNullable(FACTORY.get(messageType))
+                   .map(Supplier::get)
+                   .orElseThrow(() -> new IllegalArgumentException("해당 Message Type 이 존재하지 않습니다. : " + messageType));
   }
 }
