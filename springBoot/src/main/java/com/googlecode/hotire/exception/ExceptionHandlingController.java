@@ -10,7 +10,12 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 public class ExceptionHandlingController {
 
 	@ExceptionHandler(BaseException.class) 
-	public void handleError(final Exception exception) {
+	public void handleBaseError(final BaseException exception) {
+		log.error(exception.getMessage());
+	}
+
+	@ExceptionHandler(ServiceException.class)
+	public void handleServiceError(final ServiceException exception) {
 		log.error(exception.getMessage());
 	}
 }
