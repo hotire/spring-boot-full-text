@@ -17,6 +17,7 @@ public class MessageParser {
 		final StringBuilder messageStr = new StringBuilder();
 		Arrays.stream(parseObject.getClass().getDeclaredFields())
 			  .filter(field -> Objects.nonNull(AnnotationUtils.findAnnotation(field, FixedString.class)))
+			  .sorted(FixedString.FIELD_COMPARATOR)
 			  .forEach(field -> {
 			  	try {
 					final FixedString fixedStringInfo = field.getAnnotation(FixedString.class);
@@ -41,6 +42,7 @@ public class MessageParser {
 
 		Arrays.stream(parseObject.getClass().getDeclaredFields())
 			  .filter(field -> Objects.nonNull(AnnotationUtils.findAnnotation(field, FixedString.class)))
+			  .sorted(FixedString.FIELD_COMPARATOR)
 			  .forEach(field -> {
 				  try {
 					  final FixedString fixedStringInfo = field.getAnnotation(FixedString.class);
