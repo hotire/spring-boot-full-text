@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a93b0c7c-1b93-452f-873d-aeff5f9eb135" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/model/RequestMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/model/RequestMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/model/ResponseMessageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/test/java/com/googlecode/hotire/model/ResponseMessageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApplicationTests">
+  <component name="RunManager" selected="JUnit.BaseMessageTest.getMessage">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -101,17 +99,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FullTextControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BaseMessageTest.getMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-blog" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.googlecode.hotire.controller.*" />
+          <option name="PATTERN" value="com.googlecode.hotire.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.googlecode.hotire.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.googlecode.hotire.controller.FullTextControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.googlecode.hotire.model" />
+      <option name="MAIN_CLASS_NAME" value="com.googlecode.hotire.model.BaseMessageTest" />
+      <option name="METHOD_NAME" value="getMessage" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -189,19 +188,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.com.googlecode.hotire in spring-blog" />
-      <item itemvalue="JUnit.FullTextControllerTest" />
       <item itemvalue="JUnit.TestFullTextServiceTest" />
       <item itemvalue="JUnit.MessageFactoryTest" />
       <item itemvalue="JUnit.ApplicationTests" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="JUnit.BaseMessageTest.getMessage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BaseMessageTest.getMessage" />
         <item itemvalue="JUnit.ApplicationTests" />
         <item itemvalue="JUnit.com.googlecode.hotire in spring-blog" />
         <item itemvalue="JUnit.MessageFactoryTest" />
         <item itemvalue="JUnit.TestFullTextServiceTest" />
-        <item itemvalue="JUnit.FullTextControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +229,7 @@
       <workItem from="1554609671445" duration="4912000" />
       <workItem from="1588255768394" duration="3542000" />
       <workItem from="1588861870332" duration="1500000" />
-      <workItem from="1589301167657" duration="431000" />
+      <workItem from="1589301167657" duration="568000" />
     </task>
     <servers />
   </component>
@@ -238,34 +237,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2411" y="262" key="#com.intellij.ide.util.MemberChooser" timestamp="1588862376669">
+    <state x="2411" y="262" key="#com.intellij.ide.util.MemberChooser" timestamp="1589301671914">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state x="2411" y="262" key="#com.intellij.ide.util.MemberChooser/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588862376669" />
-    <state width="1638" height="193" key="GridCell.Tab.0.bottom" timestamp="1588259323481">
+    <state x="2411" y="262" key="#com.intellij.ide.util.MemberChooser/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1589301671914" />
+    <state width="1638" height="193" key="GridCell.Tab.0.bottom" timestamp="1589301732073">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1638" height="193" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588259323481" />
-    <state width="1638" height="193" key="GridCell.Tab.0.center" timestamp="1588259323480">
+    <state width="1638" height="193" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1589301732073" />
+    <state width="1638" height="193" key="GridCell.Tab.0.center" timestamp="1589301732072">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1638" height="193" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588259323480" />
-    <state width="1638" height="193" key="GridCell.Tab.0.left" timestamp="1588259323479">
+    <state width="1638" height="193" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1589301732072" />
+    <state width="1638" height="193" key="GridCell.Tab.0.left" timestamp="1589301732071">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1638" height="193" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588259323479" />
-    <state width="1638" height="193" key="GridCell.Tab.0.right" timestamp="1588259323481">
+    <state width="1638" height="193" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1589301732071" />
+    <state width="1638" height="193" key="GridCell.Tab.0.right" timestamp="1589301732072">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1638" height="193" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588259323481" />
+    <state width="1638" height="193" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1589301732072" />
     <state x="2219" y="196" key="SettingsEditor" timestamp="1588255953644">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2219" y="196" key="SettingsEditor/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588255953644" />
-    <state x="2594" y="180" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589301205852">
+    <state x="2594" y="180" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589301633778">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state x="2594" y="180" key="com.intellij.testIntegration.createTest.CreateTestDialog/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1589301205852" />
+    <state x="2594" y="180" key="com.intellij.testIntegration.createTest.CreateTestDialog/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1589301633778" />
     <state x="2263" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1589301188947">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
