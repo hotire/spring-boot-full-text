@@ -17,6 +17,6 @@ public class TestFullTextServiceTest {
 
       // then
       assertThat(result.getResponseCode()).isEqualTo("1001");
-      assertThat(result.getChaserNumber()).isEqualTo("10000100001000010000");
+      assertThat(result.getDebugId()).isEqualTo("10000100001000010000");
    }
 }

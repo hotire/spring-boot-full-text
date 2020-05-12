@@ -11,5 +11,5 @@ public class ResponseMessage implements BaseMessage {
 	@FixedString(value = 4, type = MessageFieldType.ALPHABET, order = 1)
 	private String responseCode;
 	@FixedString(value = 20, type = MessageFieldType.NUMERIC, order = 2)
-	private String chaserNumber;
+	private String debugId;
 }
