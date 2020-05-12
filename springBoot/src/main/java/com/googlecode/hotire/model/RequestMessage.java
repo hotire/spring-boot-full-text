@@ -11,4 +11,3 @@ public class RequestMessage implements BaseMessage {
 	@FixedString(value = 20, type = MessageFieldType.NUMERIC, order = 2)
 	private String debugId;
 }
-chaserNumber

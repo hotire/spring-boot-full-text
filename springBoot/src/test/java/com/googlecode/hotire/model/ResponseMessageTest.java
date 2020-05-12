@@ -20,6 +20,15 @@ class ResponseMessageTest {
     }
 
     @Test
-    void getChaserNumber() {
+    void getDebugId() {
+        // given
+        final String debugId = "";
+        final ResponseMessage message = new ResponseMessage().setDebugId(debugId);
+
+        // when
+        final String result = message.getDebugId();
+
+        // then
+        assertThat(result).isEqualTo(debugId);
     }
 }
