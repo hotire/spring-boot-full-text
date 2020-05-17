@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a93b0c7c-1b93-452f-873d-aeff5f9eb135" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/utils/MessageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/utils/MessageFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,10 +193,10 @@
     <list>
       <item itemvalue="JUnit.com.googlecode.hotire in spring-blog" />
       <item itemvalue="JUnit.ApplicationTests" />
-      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="JUnit.BaseMessageTest.getMessage" />
       <item itemvalue="JUnit.ServiceExceptionTest.responseStatus" />
       <item itemvalue="JUnit.BaseExceptionTest.getMessage" />
+      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
@@ -232,7 +233,8 @@
       <workItem from="1554609671445" duration="4912000" />
       <workItem from="1588255768394" duration="3542000" />
       <workItem from="1588861870332" duration="1500000" />
-      <workItem from="1589301167657" duration="980000" />
+      <workItem from="1589301167657" duration="1031000" />
+      <workItem from="1589732292851" duration="507000" />
     </task>
     <servers />
   </component>
@@ -244,22 +246,22 @@
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2411" y="262" key="#com.intellij.ide.util.MemberChooser/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1589301671914" />
-    <state width="1638" height="193" key="GridCell.Tab.0.bottom" timestamp="1589302000139">
+    <state width="1638" height="193" key="GridCell.Tab.0.bottom" timestamp="1589302199857">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1638" height="193" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1589302000139" />
-    <state width="1638" height="193" key="GridCell.Tab.0.center" timestamp="1589302000138">
+    <state width="1638" height="193" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1589302199857" />
+    <state width="1638" height="193" key="GridCell.Tab.0.center" timestamp="1589302199856">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1638" height="193" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1589302000138" />
-    <state width="1638" height="193" key="GridCell.Tab.0.left" timestamp="1589302000137">
+    <state width="1638" height="193" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1589302199856" />
+    <state width="1638" height="193" key="GridCell.Tab.0.left" timestamp="1589302199855">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1638" height="193" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1589302000137" />
-    <state width="1638" height="193" key="GridCell.Tab.0.right" timestamp="1589302000138">
+    <state width="1638" height="193" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1589302199855" />
+    <state width="1638" height="193" key="GridCell.Tab.0.right" timestamp="1589302199856">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1638" height="193" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1589302000138" />
+    <state width="1638" height="193" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1589302199856" />
     <state x="2219" y="196" key="SettingsEditor" timestamp="1588255953644">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>

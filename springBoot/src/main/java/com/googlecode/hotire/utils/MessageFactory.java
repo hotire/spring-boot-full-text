@@ -4,12 +4,15 @@ import com.googlecode.hotire.constants.MessageType;
 import com.googlecode.hotire.model.BaseMessage;
 import com.googlecode.hotire.model.RequestMessage;
 import com.googlecode.hotire.model.ResponseMessage;
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 import java.util.function.Supplier;
 
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class MessageFactory {
 
   private static final Map<MessageType, Supplier<BaseMessage>> FACTORY;
