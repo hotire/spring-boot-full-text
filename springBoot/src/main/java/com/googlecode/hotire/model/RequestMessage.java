@@ -3,8 +3,10 @@ package com.googlecode.hotire.model;
 import com.googlecode.hotire.annoation.FixedString;
 import com.googlecode.hotire.constants.MessageFieldType;
 import lombok.Data;
+import lombok.experimental.Accessors;
 
 @Data
+@Accessors(chain = true)
 public class RequestMessage implements BaseMessage {
 	@FixedString(value = 8, type = MessageFieldType.ALPHABET, order = 1)
 	private String organizationCode;

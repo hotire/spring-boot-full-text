@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a93b0c7c-1b93-452f-873d-aeff5f9eb135" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/exception/BaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/exception/BaseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/model/RequestMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/googlecode/hotire/model/RequestMessage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +65,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.googlecode.hotire.exception" />
       <recent name="com.googlecode.hotire.model" />
+      <recent name="com.googlecode.hotire.exception" />
       <recent name="com.googlecode.hotire.model.factory" />
       <recent name="com.googlecode.hotire.service" />
       <recent name="com.googlecode.hotire.controller" />
@@ -234,7 +234,8 @@
       <workItem from="1588255768394" duration="3542000" />
       <workItem from="1588861870332" duration="1500000" />
       <workItem from="1589301167657" duration="1031000" />
-      <workItem from="1589732292851" duration="622000" />
+      <workItem from="1589732292851" duration="679000" />
+      <workItem from="1589820561209" duration="108000" />
     </task>
     <servers />
   </component>
@@ -266,10 +267,10 @@
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2219" y="196" key="SettingsEditor/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1588255953644" />
-    <state x="2594" y="180" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589302038039">
+    <state x="2594" y="180" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589820597445">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state x="2594" y="180" key="com.intellij.testIntegration.createTest.CreateTestDialog/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1589302038039" />
+    <state x="2594" y="180" key="com.intellij.testIntegration.createTest.CreateTestDialog/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1589820597445" />
     <state x="2263" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1589301188947">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
